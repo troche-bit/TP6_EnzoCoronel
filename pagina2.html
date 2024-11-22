@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+    <link rel="stylesheet" href="estilos/estilo_pagina2.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="welcomeMessage">¡Bienvenido a la Página Principal!</h1>
+        <p>Por favor, ingresa tu nombre para personalizar tu experiencia:</p>
+        <input type="text" id="userNameInput" placeholder="Tu nombre" />
+        <button id="submitName">Enviar</button>
+        <p id="personalizedMessage"></p>
+
+        <h2>Explora las demás páginas</h2>
+        <div class="button-container">
+            <button class="animated-button" onclick="location.href='pagina3.html'">Queremos saber mas de ti!!!</button>
+            <p>Aquí puedes darnos contarnos mas sobre ti, para poder conocerte mejor.</p>
+            <button class="animated-button" onclick="location.href='pagina4.html'">Valoranos</button>
+            <p>Aquíe puedes dejarnos una reseña de que te parecieron los productos que ofrecemos.s</p>
+            <button class="animated-button" onclick="location.href='index.html'">Cerrar Sesión</button>
+        </div>
+    </div>
+
+    <script src="scripts/script_pagina2.js"></script>
+</body>
+</html>
